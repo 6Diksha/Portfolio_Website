@@ -1,0 +1,170 @@
+
+body{
+    background-color:rgb(167, 151, 217) ;
+    background-image: url('https://media.istockphoto.com/id/821760914/vector/pastel-multi-color-gradient-vector-background-simple-form-and-blend-with-copy-space.jpg?s=612x612&w=0&k=20&c=adwrMs3MkPLXMb69AYSoMpnCfLSAb_D3PCQRGGXiM5g=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2.5;
+}
+
+
+h1{
+    color: rgb(232, 124, 36);
+    font-weight: bold;
+}
+h2{
+    color: rgb(232, 124, 36);
+    font-weight: bold;
+}
+
+
+.navbar {
+    width: 85%;
+    background-color: rgba(239, 181, 152, 0.941);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 55%;
+    padding-top: 18px;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1;
+  }
+  
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+
+a.menu {
+    color: rgb(250, 248, 248);
+    border-radius: 10%;
+    text-transform: uppercase;
+    position: relative;
+  }
+a.menu:hover::after {
+    width: 100%;
+  }
+
+
+#div1{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#div1 img {
+    width: 40vh;
+  }
+#div1 .about{
+    width: 100vh;
+}
+
+#div2 h1{
+    margin-bottom: 50px;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+#div2 img{
+    height: 200px;
+    width: 200px;
+}
+
+#div3 h1{
+    margin-bottom: 10px;
+}
+#div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.card-deck{
+    margin: 10px;
+}
+.card-title{
+    text-align: center;
+    
+}
+
+.card-website{
+    color:rgb(229, 121, 81);
+    font-size: 23px;
+}
+.card-website:hover{
+    text-decoration: underline;
+    color: rgb(155, 194, 225);
+}
+
+
+#div4 .form{
+    display: flex;
+    justify-content: center;
+}
+
+#div4 h1{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#div4 .form-group{
+    display: inline-block;
+    padding-left: 20px;
+}
+.col-auto{
+    padding-top: 5px;
+    padding-left: 45%;
+}
+
+.btn {background-color: orange;
+        border: orange;}
+.btn:hover{background-color: rgb(226, 105, 12);}
+
+@media screen and (max-width: 400px) {
+   
+    
+    
+    #div1{
+        display: contents;
+    }
+    #div1 .about{
+        display: inline;
+    }
+    #div2 img{
+        width: 50%;
+        height: auto;
+    }
+    #div2{
+        align-items: center;
+        display:contents;
+         padding-left: 5%;
+    }
+}
+
+#footer{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer a{
+    display:inline;
+    padding-left: 100px;
+}
+
+#footer .contact-links a{
+    color:rgb(229, 121, 81);
+}
+
+
+
