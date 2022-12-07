@@ -49,6 +49,22 @@ a.menu:hover::after {
     width: 100%;
   }
 
+  #my-photo{
+    background-color: #333;
+    outline: 1px solid rgb(255, 255, 255);
+    outline-offset: -8px;
+    overflow: hidden;
+    border-radius: 10px ;
+}
+.my_photo{
+    object-fit: cover;
+    opacity: .75;
+    transition: transform 1.0s;
+}
+
+.my-photo:hover .my_photo{transform: scale(1.15);}
+
+
 
 #div1{
     margin-top: 15%;
@@ -131,9 +147,29 @@ a.menu:hover::after {
         border: orange;}
 .btn:hover{background-color: rgb(226, 105, 12);}
 
+@media screen and (max-width: 1200px) {
+    #my-photo{
+        width: 250px;
+        height: 300px;
+    }
+
+    .my-photo{
+        object-fit: cover;
+        width: 250px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: 400px) {
    
+    #my-photo{
+        margin-top: 70%;
+        
+    }
     
+    .my-photo{
+        margin-top: 70%;
+    } 
     
     #div1{
         display: contents;
